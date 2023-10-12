@@ -1,0 +1,20 @@
+# Linux Arch
+
+$ sudo pacman -S python or sudo pacman -S python3
+$ python --version
+$ sudo pacman -S python-pip
+$ sudo pacman -S python-virtualenv
+
+# Python 3.3+
+$ python -m venv myproject
+
+# Python pre 3.3
+$ virtualenv myproject
+New python executable in myproject/bin/python
+Installing setuptools, pip, wheel...done.
+
+# Activate the virtualenv (OS X & Linux)
+$ source myproject/bin/activate
+
+# Actbivate the virtualenv (Windows)
+$ myproject\Scripts\activate
